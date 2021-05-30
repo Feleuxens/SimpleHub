@@ -1,0 +1,28 @@
+name: SimpleHub
+version: 1.0.0-SNAPSHOT
+main: me.feleuxens.simplehub.Main
+author: Feleuxens
+description: A pragmatic hub plugin.
+
+commands:
+  sethub:
+    description: Set hub coordinates from current position
+    usage: /<command>
+    aliases: [savehub]
+    permission: simplehub.admin
+  clearhub:
+    description: Clear hub
+    usage: /<command>
+    aliases: [removehub]
+    permission: simplehub.admin
+  hub:
+    description: Teleport to hub after 3 seconds
+    usage: /<command>
+    permission: simplehub.player
+
+permissions:
+  simplehub.admin:
+    default: op
+  simplehub.player:
+    default:
+      true

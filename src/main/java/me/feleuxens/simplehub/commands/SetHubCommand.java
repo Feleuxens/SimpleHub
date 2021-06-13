@@ -14,8 +14,7 @@ public class SetHubCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (sender instanceof Player) {
-            Player player = (Player) sender;
+        if (sender instanceof Player player) {
             String worldName = Objects.requireNonNull(player.getLocation().getWorld()).getName();
             main.saveHub(worldName, player.getLocation().getX(), player.getLocation().getY(), player.getLocation().getZ());
             player.sendMessage(ChatColor.DARK_GREEN + "Set hub position successfully!");

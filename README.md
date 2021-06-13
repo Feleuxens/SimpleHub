@@ -15,6 +15,9 @@ Releases are named after the scheme SimpleHub-[Minecraft-Version]-[Plugin-Versio
 ## Development
 This project uses Maven. To import it clone the repository and in your ide select import Maven Project.
 
+### Requirements
+Up to version 1.16.5 Minecraft uses Java 8. For best compatibility this plugin is build with Java 8 as well.
+
 ### Building
 To build the .jar file use maven's package phase.
 ```

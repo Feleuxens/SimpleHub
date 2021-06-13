@@ -10,6 +10,8 @@ A simple hub plugin for Spigot/Bukkit servers.
 Download [SimpleHub-1.17-1.0-SNAPSHOT.jar](https://github.com/feleuxens/SimpleHub/releases/latest/download/SimpleHub-1.17-1.0-SNAPSHOT.jar) and 
 drop it into the plugins folder of your Spigot/Bukkit server.
 
+Releases are named after the scheme SimpleHub-[Minecraft-Version]-[Plugin-Version].jar
+
 ## Development
 This project uses Maven. To import it clone the repository and in your ide select import Maven Project.
 
